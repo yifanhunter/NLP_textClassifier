@@ -12,6 +12,7 @@ Bi-LSTM + Attention 模型
 Transformer 模型
 ELMo 预训练模型
 BERT 预训练模型
+
 二、数据集合
 数据集为IMDB 电影影评，总共有三个数据文件，在/data/rawData目录下，包括unlabeledTrainData.tsv，labeledTrainData.tsv，testData.tsv。在进行文本分类时需要有标签的数据（labeledTrainData），但是在训练word2vec词向量模型（无监督学习）时可以将无标签的数据一起用上。
 训练数据地址：链接：https://pan.baidu.com/s/1-XEwx1ai8kkGsMagIFKX_g     提取码：rtz8
